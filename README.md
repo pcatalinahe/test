@@ -1,6 +1,6 @@
-# LRNR
-
 <a id="top"></a>
+
+# LRNR
 
 ## Project Overview
 LRNR is a quiz generation application that uses the **Claude AI API** to create customized quizzes based on user input. It allows the users to select a topic, expertise level, number of questions, and question style to generate a personalized quiz. Originally built with **jQuery** and **GO**, the application is being refactored into **Node.js** and **React** for improved scalability and maintainability.
@@ -29,6 +29,8 @@ LRNR is a quiz generation application that uses the **Claude AI API** to create 
   - The **Claude AI API** is used to generate quizzes dynamically based on user input.
 - **Responsive Design**:
   - The application is fully responsive and works seamlessly on mobile, tablet, and desktop devices.
+
+[Back to Top](#top)
 
 ---
 
@@ -71,14 +73,7 @@ cd client
 npm install
 ```
 
-4. **Obtain API Key**: You will need a **Claude AI API key** to use the quiz generation features. You can obtain your API key by signing up for Claude at [Anthropic API](https://console.anthropic.com/settings/keys).
-
-5. **Set up your environment variables**: Create a ```.env``` file in the root of your project and add the following:
-```bash
-CLAUDE_API_KEY=your_api_key_here
-```
-
-6. Start the frontend:
+4. Start the frontend:
 ```bash
 npm run dev
 ```
@@ -103,11 +98,18 @@ cd server
 ```
 
 2. Install dependencies:
-```bash
+```bash 
 npm install
 ```
 
-3. Run the backend:
+3. **Obtain API Key**: You will need a **Claude AI API key** to use the quiz generation features. You can obtain your API key by signing up for Claude at [Anthropic API](https://console.anthropic.com/settings/keys).
+
+5. **Set up your environment variables**: Create a ```.env``` file in the root of the server directory and add the following:
+```bash
+CLAUDE_API_KEY=your_api_key_here
+```
+
+6. Run the backend:
 ```bash
 node server.js
 ```
@@ -131,6 +133,13 @@ The **Claude AI API** is used to generate quizzes dynamically based on user inpu
 [Back to Top](#top)
 
 ### Contributors:
-| [![Felix](https://avatars.githubusercontent.com/u/90164142?v=4)](https://github.com/FelixW01) | [![Tom](https://avatars.githubusercontent.com/u/179357392?v=4)](https://github.com/devtrilley) | [![Dung](https://avatars.githubusercontent.com/u/184243160?v=4)](https://github.com/ddungttran) | [![Khalia](https://avatars.githubusercontent.com/u/183950244?v=4)](https://github.com/kkhhaalliiaa) | [![Tyler](https://avatars.githubusercontent.com/u/176984154?v=4)](https://github.com/Tylerk2565) | [![Catalina](https://avatars.githubusercontent.com/u/184427314?v=4)](https://github.com/pcatalinahe)
+| [![Felix](https://avatars.githubusercontent.com/u/90164142?v=4)](https://github.com/FelixW01) | [![Tom](https://avatars.githubusercontent.com/u/179357392?v=4)](https://github.com/devtrilley) | [![Dung](https://avatars.githubusercontent.com/u/184243160?v=4)](https://github.com/ddungttran) | [![Khalia](https://avatars.githubusercontent.com/u/183950244?v=4)](https://github.com/kkhhaalliiaa) | [![Tyler](https://avatars.githubusercontent.com/u/176984154?v=4)](https://github.com/Tylerk2565) | [![Catalina](https://avatars.githubusercontent.com/u/184427314?v=4)](https://github.com/pcatalinahe) |
+|---|---|---|---|---|---|
+| <img src="https://avatars.githubusercontent.com/u/90164142?v=4" width="50"> | <img src="https://avatars.githubusercontent.com/u/179357392?v=4" width="50"> | <img src="https://avatars.githubusercontent.com/u/184243160?v=4" width="50"> | <img src="https://avatars.githubusercontent.com/u/183950244?v=4" width="50"> | <img src="https://avatars.githubusercontent.com/u/176984154?v=4" width="50"> | <img src="https://avatars.githubusercontent.com/u/184427314?v=4" width="50"> |
+
+
+[Back to Top](#top)
 
 ### Acknowledgements
+
+[Back to Top](#top)
