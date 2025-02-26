@@ -7,8 +7,6 @@ LRNR is a quiz generation application that uses the **Claude AI API** to create 
 
 [View Demo](https://lrnr-app-team-2.onrender.com/)
 
----
-
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -16,8 +14,6 @@ LRNR is a quiz generation application that uses the **Claude AI API** to create 
 - [API Documentation](#api-documentation)
 - [Contributors](#contributors)
 - [Acknowledgements](#acknowledgements)
-
----
 
 ## Features
 - **Quiz Generation**:
@@ -32,11 +28,7 @@ LRNR is a quiz generation application that uses the **Claude AI API** to create 
 
 [Back to Top](#top)
 
----
-
 Screenshot
-
----
 
 ## Tech Stack
 
@@ -51,8 +43,6 @@ Screenshot
 
 
 [Back to Top](#top)
-
----
 
 ## Installation Instructions
 
@@ -110,8 +100,6 @@ node server.js
 
 Visit ```http://localhost:5000``` in your browser.
 
-[Back to Top](#top)
-
 ## API Documentation
 
 ### Claude AI API
@@ -125,15 +113,11 @@ The **Claude AI API** is used to generate quizzes dynamically based on user inpu
 
 Checkout the API documentation at [Claude](https://docs.anthropic.com/en/api/getting-started).
 
-[Back to Top](#top)
-
 ### Contributors:
 
 | [<img src="https://avatars.githubusercontent.com/u/90164142?v=4" width="50">](https://github.com/FelixW01) | [<img src="https://avatars.githubusercontent.com/u/179357392?v=4" width="50">](https://github.com/devtrilley) | [<img src="https://avatars.githubusercontent.com/u/184243160?v=4" width="50">](https://github.com/ddungttran) | [<img src="https://avatars.githubusercontent.com/u/183950244?v=4" width="50">](https://github.com/kkhhaalliiaa) | [<img src="https://avatars.githubusercontent.com/u/176984154?v=4" width="50">](https://github.com/Tylerk2565) | [<img src="https://avatars.githubusercontent.com/u/184427314?v=4" width="50">](https://github.com/pcatalinahe) |
 |---|---|---|---|---|---|
 
-
-[Back to Top](#top)
 
 ### Acknowledgements
 
