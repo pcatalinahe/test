@@ -1,11 +1,11 @@
 <a id="top"></a>
 
-# LRNR
+# <u>LRNR</u>
 
 ## Project Overview
 LRNR is a quiz generation application that uses the **Claude AI API** to create customized quizzes based on user input. It allows the users to select a topic, expertise level, number of questions, and question style to generate a personalized quiz. Originally built with **jQuery** and **GO**, the application is being refactored into **Node.js** and **React** for improved scalability and maintainability.
 
-[View Demo](https://lrnr-app-team-2.onrender.com/)
+<a href="https://lrnr-app-team-2.onrender.com/" target="_blank">View Demo</a>
 
 ## Table of Contents
 - [Features](#features)
@@ -26,9 +26,11 @@ LRNR is a quiz generation application that uses the **Claude AI API** to create 
 - **Responsive Design**:
   - The application is fully responsive and works seamlessly on mobile, tablet, and desktop devices.
 
+
+
 [Back to Top](#top)
 
-Screenshot
+## Screenshot
 
 ## Tech Stack
 
@@ -72,8 +74,6 @@ npm run dev
 
 Visit ```http://localhost:5173``` in your browser.
 
-[Back to Top](#top)
-
 ### Backend Setup
 
 1. Navigate to the ```server``` directory:
@@ -86,7 +86,7 @@ cd server
 npm install
 ```
 
-3. **Obtain API Key**: You will need a **Claude AI API key** to use the quiz generation features. You can obtain your API key by signing up for Claude at [Anthropic API](https://console.anthropic.com/settings/keys).
+3. **Obtain API Key**: You will need a **Claude AI API key** to use the quiz generation features. You can obtain your API key by signing up for Claude at [Anthropic API](https://console.anthropic.com/settings/keys){:target="_blank"}.
 
 5. **Set up your environment variables**: Create a ```.env``` file in the root of the server directory and add the following:
 ```bash
@@ -100,6 +100,10 @@ node server.js
 
 Visit ```http://localhost:5000``` in your browser.
 
+
+
+[Back to Top](#top)
+
 ## API Documentation
 
 ### Claude AI API
@@ -111,14 +115,16 @@ The **Claude AI API** is used to generate quizzes dynamically based on user inpu
 - **Number of Questions**: The total number of questions in the quiz, choose from 5, 10, or 15.
 - **Question Style**: The format of the questions (e.g., "normal", "1940's gangster").
 
-Checkout the API documentation at [Claude](https://docs.anthropic.com/en/api/getting-started).
+Checkout the API documentation at [Claude](https://docs.anthropic.com/en/api/getting-started){:target="_blank"}.
 
 ### Contributors:
 
-| [<img src="https://avatars.githubusercontent.com/u/90164142?v=4" width="50">](https://github.com/FelixW01) | [<img src="https://avatars.githubusercontent.com/u/179357392?v=4" width="50">](https://github.com/devtrilley) | [<img src="https://avatars.githubusercontent.com/u/184243160?v=4" width="50">](https://github.com/ddungttran) | [<img src="https://avatars.githubusercontent.com/u/183950244?v=4" width="50">](https://github.com/kkhhaalliiaa) | [<img src="https://avatars.githubusercontent.com/u/176984154?v=4" width="50">](https://github.com/Tylerk2565) | [<img src="https://avatars.githubusercontent.com/u/184427314?v=4" width="50">](https://github.com/pcatalinahe) |
+| [<img src="https://avatars.githubusercontent.com/u/90164142?v=4" width="50">](https://github.com/FelixW01){:target="_blank"} | [<img src="https://avatars.githubusercontent.com/u/179357392?v=4" width="50">](https://github.com/devtrilley){:target="_blank"} | [<img src="https://avatars.githubusercontent.com/u/184243160?v=4" width="50">](https://github.com/ddungttran){:target="_blank"} | [<img src="https://avatars.githubusercontent.com/u/183950244?v=4" width="50">](https://github.com/kkhhaalliiaa){:target="_blank"} | [<img src="https://avatars.githubusercontent.com/u/176984154?v=4" width="50">](https://github.com/Tylerk2565){:target="_blank"} | [<img src="https://avatars.githubusercontent.com/u/184427314?v=4" width="50">](https://github.com/pcatalinahe){:target="_blank"} |
 |---|---|---|---|---|---|
 
 
 ### Acknowledgements
+
+
 
 [Back to Top](#top)
