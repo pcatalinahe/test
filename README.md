@@ -34,6 +34,10 @@ LRNR is a quiz generation application that uses the **Claude AI API** to create 
 
 ---
 
+Screenshot
+
+---
+
 ## Tech Stack
 
 - ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
@@ -55,15 +59,13 @@ LRNR is a quiz generation application that uses the **Claude AI API** to create 
 To set up the project locally, follow these steps:
 
 ### Frontend Setup
-<!-- 
-1. Get an API Key at [Claude AI API](https://console.anthropic.com/settings/keys). -->
 
 1. Clone the repository:
 ```bash
 git clone https://github.com/devtrilley/lrnr-app-team-2.git
 ```
 
-2. **Navigate to the ```client``` directory:
+2. Navigate to the ```client``` directory:
 ```bash
 cd client
 ```
@@ -77,14 +79,6 @@ npm install
 ```bash
 npm run dev
 ```
-
-<!-- 4. Enter your API key in the confiig file or environment variables. -->
-
-<!-- 5. Usage:
-Run the project locally:
-```bash
-npm start
-``` -->
 
 Visit ```http://localhost:5173``` in your browser.
 
@@ -119,7 +113,6 @@ Visit ```http://localhost:5000``` in your browser.
 [Back to Top](#top)
 
 ## API Documentation
-[Claude](https://docs.anthropic.com/en/api/getting-started)
 
 ### Claude AI API
 The **Claude AI API** is used to generate quizzes dynamically based on user input. The API requires the following parameters:
@@ -130,12 +123,14 @@ The **Claude AI API** is used to generate quizzes dynamically based on user inpu
 - **Number of Questions**: The total number of questions in the quiz, choose from 5, 10, or 15.
 - **Question Style**: The format of the questions (e.g., "normal", "1940's gangster").
 
+Checkout the API documentation at [Claude](https://docs.anthropic.com/en/api/getting-started).
+
 [Back to Top](#top)
 
 ### Contributors:
-| [![Felix](https://avatars.githubusercontent.com/u/90164142?v=4)](https://github.com/FelixW01) | [![Tom](https://avatars.githubusercontent.com/u/179357392?v=4)](https://github.com/devtrilley) | [![Dung](https://avatars.githubusercontent.com/u/184243160?v=4)](https://github.com/ddungttran) | [![Khalia](https://avatars.githubusercontent.com/u/183950244?v=4)](https://github.com/kkhhaalliiaa) | [![Tyler](https://avatars.githubusercontent.com/u/176984154?v=4)](https://github.com/Tylerk2565) | [![Catalina](https://avatars.githubusercontent.com/u/184427314?v=4)](https://github.com/pcatalinahe) |
+
+| [<img src="https://avatars.githubusercontent.com/u/90164142?v=4" width="50">](https://github.com/FelixW01) | [<img src="https://avatars.githubusercontent.com/u/179357392?v=4" width="50">](https://github.com/devtrilley) | [<img src="https://avatars.githubusercontent.com/u/184243160?v=4" width="50">](https://github.com/ddungttran) | [<img src="https://avatars.githubusercontent.com/u/183950244?v=4" width="50">](https://github.com/kkhhaalliiaa) | [<img src="https://avatars.githubusercontent.com/u/176984154?v=4" width="50">](https://github.com/Tylerk2565) | [<img src="https://avatars.githubusercontent.com/u/184427314?v=4" width="50">](https://github.com/pcatalinahe) |
 |---|---|---|---|---|---|
-| <img src="https://avatars.githubusercontent.com/u/90164142?v=4" width="50"> | <img src="https://avatars.githubusercontent.com/u/179357392?v=4" width="50"> | <img src="https://avatars.githubusercontent.com/u/184243160?v=4" width="50"> | <img src="https://avatars.githubusercontent.com/u/183950244?v=4" width="50"> | <img src="https://avatars.githubusercontent.com/u/176984154?v=4" width="50"> | <img src="https://avatars.githubusercontent.com/u/184427314?v=4" width="50"> |
 
 
 [Back to Top](#top)
